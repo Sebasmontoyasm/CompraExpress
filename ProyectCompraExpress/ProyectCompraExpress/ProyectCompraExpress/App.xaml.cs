@@ -11,7 +11,7 @@ namespace ProyectCompraExpress
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ConfirmarCompraPage();
         }
 
         protected override void OnStart()
