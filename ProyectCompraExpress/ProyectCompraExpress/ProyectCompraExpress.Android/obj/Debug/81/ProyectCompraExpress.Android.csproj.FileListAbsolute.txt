@@ -1,2 +1,0 @@
-C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.Android\obj\Debug\81\ProyectCompraExpress.Android.nuget.stamp
