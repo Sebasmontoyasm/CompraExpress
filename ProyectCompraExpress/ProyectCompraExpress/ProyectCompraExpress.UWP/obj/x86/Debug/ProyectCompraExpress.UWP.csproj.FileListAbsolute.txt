@@ -1,0 +1,12 @@
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\App.g.i.cs
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\App.g.cs
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\MainPage.g.cs
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\App.xaml
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\MainPage.xaml
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\App.xbf
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\MainPage.xbf
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\XamlSaveStateFile.xml
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\App.xaml.g.cs
+C:\Users\Sebas Montoya\Desktop\Universidad\Ingenieria de Software III\Proyecto\CompraExpress\CompraExpress\ProyectCompraExpress\ProyectCompraExpress\ProyectCompraExpress.UWP\obj\x86\Debug\MainPage.xaml.g.cs
