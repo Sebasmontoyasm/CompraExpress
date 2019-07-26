@@ -104,11 +104,11 @@ C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\D
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\com.companyname.CompraExpressv2-Signed.apk
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.nuget.stamp
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csprojAssemblyReference.cache
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\libraryimports.cache.stamp
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res.flag
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\App.xaml.g.cs
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MainPage.xaml.g.cs
+C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\ConfirmarCompraPage.xaml.g.cs
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csproj.CoreCompileInputs.cache
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\XamlC.stamp
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.dll
@@ -198,3 +198,4 @@ C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\D
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csprojAssemblyReference.cache
