@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompraExpressv2.Views.ConfirmarCompraPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <TableView>
+                    <TableRoot>
+                        <TableSection TextColor="DarkBlue" Title="Informacion de la compra">
+                            <ViewCell>
+                                <StackLayout  Orientation="Horizontal">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="DMI: "></Label>
+                                    <Label TextColor="Black" Text="{Binding compra.id}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell>
+                                <StackLayout  Orientation="Horizontal">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="Compañia de Envio: "></Label>
+                                    <Label TextColor="Black" Text="Buscar Options Xamarin"></Label>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell>
+                                <StackLayout  Orientation="Horizontal">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="Metodo de Pago"></Label>
+                                    <Label TextColor="Black" Text="Buscar Options Xamain"></Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </TableSection>
+
+                        <TableSection TextColor="DarkBlue"  Title ="Informacion Personal">
+                            <ViewCell>
+                                <StackLayout  Orientation="Horizontal">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="Nombre: "></Label>
+                                    <Label TextColor="Black" Text="{Binding cliente.Nombre}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell>
+                                <StackLayout  Orientation="Horizontal">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="Ciudad: "></Label>
+                                    <Label TextColor="Black" Text="{Binding cliente.Ciudad}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell>
+                                <StackLayout  Orientation="Horizontal">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="Pais: "></Label>
+                                    <Label TextColor="Black" Text="{Binding cliente.Pais}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+
+                            <ViewCell>
+                                <StackLayout  Orientation="Horizontal">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="Correo Electronico"></Label>
+                                    <Label TextColor="Black" Text="{Binding cliente.Correo}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </TableSection>
+                        <TableSection TextColor="DarkBlue" Title="Infomacion de la empresa">
+                            <ViewCell>
+                                <StackLayout  Orientation="Horizontal">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="Id:"></Label>
+                                    <Label TextColor="Black" Text="{Binding empresa.id}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+                            <ViewCell>
+                                <StackLayout  Orientation="Horizontal">
+                                    <Label TextColor="Black" FontAttributes="Bold" Text="Empresa"></Label>
+                                    <Label TextColor="Black" Text="{Binding empresa.Nombre}"></Label>
+                                </StackLayout>
+                            </ViewCell>
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+                <StackLayout>
+                    <Button BackgroundColor="Red" TextColor="Black" FontAttributes="Bold" Text="Cancelar Compra"></Button>
+                    <Button BackgroundColor="Green" TextColor="Black" FontAttributes="Bold" Text="Confirmar Compra"></Button>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

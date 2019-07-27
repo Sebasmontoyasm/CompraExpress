@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using CompraExpressv2.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace CompraExpressv2
@@ -11,7 +12,7 @@ namespace CompraExpressv2
         {
             InitializeComponent();
 
-            MainPage = new ConfirmarProducto();
+            MainPage = new ConfirmarCompraPage();
         }
 
         protected override void OnStart()
