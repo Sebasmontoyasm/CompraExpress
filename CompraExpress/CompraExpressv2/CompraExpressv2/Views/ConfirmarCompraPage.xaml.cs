@@ -47,7 +47,5 @@ namespace CompraExpressv2.Views
 
 			InitializeComponent ();
 		}
-
-        private
     }
 }

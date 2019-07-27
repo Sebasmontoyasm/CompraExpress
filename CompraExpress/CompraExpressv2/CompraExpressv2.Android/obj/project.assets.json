@@ -1064,11 +1064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\CompraExpressv2.Android.csproj",
+      "projectUniqueName": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\CompraExpressv2.Android.csproj",
       "projectName": "CompraExpressv2.Android",
-      "projectPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\CompraExpressv2.Android.csproj",
+      "projectPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\CompraExpressv2.Android.csproj",
       "packagesPath": "C:\\Users\\Sebas Montoya\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\obj\\",
+      "outputPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

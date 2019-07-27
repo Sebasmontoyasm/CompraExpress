@@ -761,11 +761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\CompraExpressv2.iOS.csproj",
+      "projectUniqueName": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\CompraExpressv2.iOS.csproj",
       "projectName": "CompraExpressv2.iOS",
-      "projectPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\CompraExpressv2.iOS.csproj",
+      "projectPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\CompraExpressv2.iOS.csproj",
       "packagesPath": "C:\\Users\\Sebas Montoya\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\obj\\",
+      "outputPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [

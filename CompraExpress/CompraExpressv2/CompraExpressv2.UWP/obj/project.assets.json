@@ -8719,11 +8719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.UWP\\CompraExpressv2.UWP.csproj",
+      "projectUniqueName": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.UWP\\CompraExpressv2.UWP.csproj",
       "projectName": "CompraExpressv2.UWP",
-      "projectPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.UWP\\CompraExpressv2.UWP.csproj",
+      "projectPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.UWP\\CompraExpressv2.UWP.csproj",
       "packagesPath": "C:\\Users\\Sebas Montoya\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.UWP\\obj\\",
+      "outputPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
