@@ -107,6 +107,7 @@ C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhon
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\CompraExpressv2.iOS.csprojAssemblyReference.cache
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\App.xaml.g.cs
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\MainPage.xaml.g.cs
+C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\Views\ConfirmarCompraPage.xaml.g.cs
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\CompraExpressv2.iOS.csproj.CoreCompileInputs.cache
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
 C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\CompraExpressv2.iOS.csproj.CopyComplete
