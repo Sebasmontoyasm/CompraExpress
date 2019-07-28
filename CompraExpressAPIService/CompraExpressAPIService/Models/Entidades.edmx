@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="IntegradorModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="IntegradorModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="__MigrationHistory">
           <Key>
             <PropertyRef Name="MigrationId" />
@@ -34,8 +34,9 @@
           <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="Precio" Type="int" Nullable="false" />
           <Property Name="Cantidad" Type="int" Nullable="false" />
-          <Property Name="Figura" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Figura" Type="nvarchar(max)" />
           <Property Name="Descripcion" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="IdProvedor" Type="nvarchar(max)" />
         </EntityType>
         <EntityType Name="ProductosPedidos">
           <Key>
@@ -57,6 +58,7 @@
             <PropertyRef Name="Documento" />
           </Key>
           <Property Name="Documento" Type="int" Nullable="false" />
+          <Property Name="Tarjeta" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Apellido" Type="nvarchar(max)" Nullable="false" />
           <Property Name="Correo" Type="nvarchar(max)" Nullable="false" />
@@ -144,8 +146,7 @@
             <End Role="Usuarios" EntitySet="Usuarios" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="IntegradorModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -180,9 +181,10 @@
           <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Precio" Type="Int32" Nullable="false" />
           <Property Name="Cantidad" Type="Int32" Nullable="false" />
-          <Property Name="Figura" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="Figura" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="Pedidos" Relationship="Self.ProductosPedidos" FromRole="Productos" ToRole="Pedidos" />
+          <Property Name="IdProvedor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Roles">
           <Key>
@@ -205,6 +207,7 @@
           <Property Name="confirmado" Type="Int32" Nullable="false" />
           <NavigationProperty Name="Pedidos" Relationship="Self.FK_dbo_Pedidos_dbo_Usuarios_Usuario" FromRole="Usuarios" ToRole="Pedidos" />
           <NavigationProperty Name="Roles" Relationship="Self.FK_dbo_Usuarios_dbo_Roles_Rol" FromRole="Usuarios" ToRole="Roles" />
+          <Property Name="Tarjeta" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
         </EntityType>
         <Association Name="FK_dbo_Pedidos_dbo_Usuarios_Usuario">
           <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1">
@@ -288,6 +291,7 @@
           <EntitySetMapping Name="Productos">
             <EntityTypeMapping TypeName="IntegradorModel.Productos">
               <MappingFragment StoreEntitySet="Productos">
+                <ScalarProperty Name="IdProvedor" ColumnName="IdProvedor" />
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="Precio" ColumnName="Precio" />
@@ -308,6 +312,7 @@
           <EntitySetMapping Name="Usuarios">
             <EntityTypeMapping TypeName="IntegradorModel.Usuarios">
               <MappingFragment StoreEntitySet="Usuarios">
+                <ScalarProperty Name="Tarjeta" ColumnName="Tarjeta" />
                 <ScalarProperty Name="Documento" ColumnName="Documento" />
                 <ScalarProperty Name="Nombre" ColumnName="Nombre" />
                 <ScalarProperty Name="Apellido" ColumnName="Apellido" />

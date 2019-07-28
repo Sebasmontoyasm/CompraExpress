@@ -1,0 +1,70 @@
+﻿@model IEnumerable<CompraExpressAPIService.Models.Usuarios>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Correo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.confirmado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Tarjeta)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Roles.Nombre)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Apellido)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Correo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.confirmado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tarjeta)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Roles.Nombre)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Documento }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Documento }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Documento })
+        </td>
+    </tr>
+}
+
+</table>

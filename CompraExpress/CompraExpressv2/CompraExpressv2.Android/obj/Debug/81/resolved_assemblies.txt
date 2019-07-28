@@ -3,6 +3,9 @@ C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\nunit.framework.dll
+C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Plugin.Connectivity.Abstractions.dll
+C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Plugin.Connectivity.dll
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.dll
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Xml.dll
@@ -42,4 +45,8 @@ C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Microsoft.Win32.Registry.dll
+C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Runtime.dll
+C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Threading.Tasks.dll
+C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Threading.dll
 C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Mono.Security.dll

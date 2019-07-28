@@ -4,79 +4,149 @@
              x:Class="CompraExpressv2.Views.ConfirmarCompraPage">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="10">
-                <TableView>
-                    <TableRoot>
-                        <TableSection TextColor="DarkBlue" Title="Informacion de la compra">
-                            <ViewCell>
-                                <StackLayout  Orientation="Horizontal">
-                                    <Label TextColor="Black" FontAttributes="Bold" Text="DMI: "></Label>
-                                    <Label TextColor="Black" Text="{Binding compra.id}"></Label>
-                                </StackLayout>
-                            </ViewCell>
-
-                            <ViewCell>
-                                <StackLayout  Orientation="Horizontal">
-                                    <Label TextColor="Black" FontAttributes="Bold" Text="Compañia de Envio: "></Label>
-                                    <Label TextColor="Black" Text="Buscar Options Xamarin"></Label>
-                                </StackLayout>
-                            </ViewCell>
-
-                            <ViewCell>
-                                <StackLayout  Orientation="Horizontal">
-                                    <Label TextColor="Black" FontAttributes="Bold" Text="Metodo de Pago"></Label>
-                                    <Label TextColor="Black" Text="Buscar Options Xamain"></Label>
-                                </StackLayout>
-                            </ViewCell>
-                        </TableSection>
-
-                        <TableSection TextColor="DarkBlue"  Title ="Informacion Personal">
-                            <ViewCell>
-                                <StackLayout  Orientation="Horizontal">
-                                    <Label TextColor="Black" FontAttributes="Bold" Text="Nombre: "></Label>
-                                    <Label TextColor="Black" Text="{Binding cliente.Nombre}"></Label>
-                                </StackLayout>
-                            </ViewCell>
-
-                            <ViewCell>
-                                <StackLayout  Orientation="Horizontal">
-                                    <Label TextColor="Black" FontAttributes="Bold" Text="Ciudad: "></Label>
-                                    <Label TextColor="Black" Text="{Binding cliente.Ciudad}"></Label>
-                                </StackLayout>
-                            </ViewCell>
-
-                            <ViewCell>
-                                <StackLayout  Orientation="Horizontal">
-                                    <Label TextColor="Black" FontAttributes="Bold" Text="Pais: "></Label>
-                                    <Label TextColor="Black" Text="{Binding cliente.Pais}"></Label>
-                                </StackLayout>
-                            </ViewCell>
-
-                            <ViewCell>
-                                <StackLayout  Orientation="Horizontal">
-                                    <Label TextColor="Black" FontAttributes="Bold" Text="Correo Electronico"></Label>
-                                    <Label TextColor="Black" Text="{Binding cliente.Correo}"></Label>
-                                </StackLayout>
-                            </ViewCell>
-                        </TableSection>
-                        <TableSection TextColor="DarkBlue" Title="Infomacion de la empresa">
-                            <ViewCell>
-                                <StackLayout  Orientation="Horizontal">
-                                    <Label TextColor="Black" FontAttributes="Bold" Text="Id:"></Label>
-                                    <Label TextColor="Black" Text="{Binding empresa.id}"></Label>
-                                </StackLayout>
-                            </ViewCell>
-                            <ViewCell>
-                                <StackLayout  Orientation="Horizontal">
-                                    <Label TextColor="Black" FontAttributes="Bold" Text="Empresa"></Label>
-                                    <Label TextColor="Black" Text="{Binding empresa.Nombre}"></Label>
-                                </StackLayout>
-                            </ViewCell>
-                        </TableSection>
-                    </TableRoot>
-                </TableView>
+            <StackLayout Padding="10" Orientation="Vertical" VerticalOptions="Center">
                 <StackLayout>
-                    <Button BackgroundColor="Red" TextColor="Black" FontAttributes="Bold" Text="Cancelar Compra"></Button>
+
+
+                    <StackLayout>
+                        <Label Text="Informacion de la compra" FontAttributes="Bold" TextColor="Black"></Label>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label TextColor="Black" FontAttributes="Bold" Text="DMI: "></Label>
+                            <Label TextColor="Black" Text="{Binding compra.id}"></Label>
+                        </StackLayout>
+
+
+                    </StackLayout>
+
+                    <StackLayout>
+                        <Label TextColor="Black" Text="Informacion Personal"></Label>
+                        
+                        
+                            <StackLayout Orientation="Horizontal">
+                                <Label TextColor="Black" FontAttributes="Bold" Text="Nombre: "></Label>
+                                <Label TextColor="Black" Text="{Binding cliente.Nombre}"></Label>
+                            </StackLayout>
+                        
+
+                        
+                            <StackLayout Orientation="Horizontal">
+                                <Label TextColor="Black" FontAttributes="Bold" Text="Ciudad: "></Label>
+                                <Label TextColor="Black" Text="{Binding cliente.Ciudad}"></Label>
+                            </StackLayout>
+                        
+
+                        
+                            <StackLayout Orientation="Horizontal">
+                                <Label TextColor="Black" FontAttributes="Bold" Text="Pais: "></Label>
+                                <Label TextColor="Black" Text="{Binding cliente.Pais}"></Label>
+                            </StackLayout>
+                        
+
+                        
+                            <StackLayout Orientation="Horizontal">
+                                <Label TextColor="Black" FontAttributes="Bold" Text="Correo Electronico"></Label>
+                                <Label TextColor="Black" Text="{Binding cliente.Correo}"></Label>
+                            </StackLayout>
+                        
+                    </StackLayout>
+
+                    <StackLayout>
+                        <Label TextColor="Black" FontAttributes="Bold" Text="Infomacion de la empresa"></Label>
+                    
+                        
+                    
+                            <StackLayout Orientation="Horizontal">
+                                <Label TextColor="Black" FontAttributes="Bold" Text="ID:"></Label>
+                                <Label TextColor="Black" Text="{Binding empresa.id}"></Label>
+                            </StackLayout>
+                    
+                    
+                            <StackLayout Orientation="Horizontal">
+                                <Label TextColor="Black" FontAttributes="Bold" Text="Empresa"></Label>
+                                <Label TextColor="Black" Text="{Binding empresa.Nombre}"></Label>
+                            </StackLayout>
+                    
+                    </StackLayout>
+
+                    <StackLayout>
+                        <Label TextColor="Red" FontAttributes="Bold" Text="Informacion Obligatoria"></Label>
+                        
+                    
+                            <StackLayout>
+                                <Picker x:Name="MetodoPago"
+                                     Title="Seleccione metodo de pago"
+                                    TitleColor="Black">
+                                    <Picker.ItemsSource>
+                                        <x:Array Type="{x:Type x:String}">
+                                            <x:String>Paypal</x:String>
+                                            <x:String>Tarjeta</x:String>
+                                        </x:Array>
+                                    </Picker.ItemsSource>
+                                </Picker>
+                            </StackLayout>
+                    
+                    
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout>
+
+                    <StackLayout>
+                        <Label TextColor="Red" FontAttributes="Bold" Text="Compañia de Envio" ></Label>
+
+
+                        <StackLayout>
+                            <Picker x:Name="CompEnvio"
+                                     Title="Seleccione compañia de envio"
+                                    TitleColor="Black">
+                                <Picker.ItemsSource>
+                                    <x:Array Type="{x:Type x:String}">
+                                        <x:String>Paypal</x:String>
+                                        <x:String>Tarjeta</x:String>
+                                    </x:Array>
+                                </Picker.ItemsSource>
+                            </Picker>
+                        </StackLayout>
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout>
+                    
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label TextColor="Black" FontAttributes="Bold" Text="ID"></Label>
+                                        <Label TextColor="Black" Text="{Binding producto.Idp}"></Label>
+                                    </StackLayout>
+                    
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label TextColor="Black" FontAttributes="Bold" Text="Nombre"></Label>
+                                        <Label TextColor="Black" Text="{Binding producto.Nombre}"></Label>
+                                    </StackLayout>
+                    
+                                    <StackLayout>
+                                        <Label TextColor="Black" FontAttributes="Bold" Text="Descipcion"></Label>
+                                    </StackLayout>
+                    
+                                    <StackLayout Orientation="Horizontal">
+
+                                        <Label TextColor="Black" Text="{Binding producto.Descripcion}"></Label>
+                                    </StackLayout>
+
+
+                    
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label TextColor="Black" FontAttributes="Bold" Text="Cantidad"></Label>
+                                        <Label TextColor="Black" Text="{Binding producto.Cantidad}"></Label>
+                                    </StackLayout>
+                    
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label TextColor="Black" FontAttributes="Bold" Text="Precio"></Label>
+                                        <Label TextColor="Black" Text="{Binding producto.Precio}"></Label>
+                                    </StackLayout>
+         
+                </StackLayout>
+                <StackLayout>
+                    <Button BackgroundColor="AliceBlue" TextColor="Black" FontAttributes="Bold" Text="Cancelar Compra"></Button>
                     <Button BackgroundColor="Green" TextColor="Black" FontAttributes="Bold" Text="Confirmar Compra"></Button>
                 </StackLayout>
             </StackLayout>

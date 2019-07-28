@@ -1,4 +1,7 @@
 FormsViewGroup
+nunit.framework
+Plugin.Connectivity.Abstractions
+Plugin.Connectivity
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -25,3 +28,4 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+Microsoft.Win32.Registry
