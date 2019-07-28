@@ -1,1 +1,1 @@
-C:\ProyectoSoftware3\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\CompraExpressv2.UWP.csproj;x86
+C:\ProyectoMovil\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\CompraExpressv2.UWP.csproj;x86

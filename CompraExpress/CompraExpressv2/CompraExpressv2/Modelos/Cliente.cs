@@ -2,6 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
+/**
+    Modelo logico de los clientes de la empresa
+    @Autor= Sebastian Montoya
+    @Version= 2.0
+     */
+
 namespace CompraExpressv2.Modelos
 {
     public class Cliente
@@ -16,10 +22,11 @@ namespace CompraExpressv2.Modelos
         public string Pais { get; set; }
 
         public string Correo { get; set; }
+        public int rol { get; set; }
+        public int confirmado { get; set; }
 
-       
 
-        public Cliente(int documento,string nombre,string direccion,string ciudad,string pais,string correo)
+        public Cliente(int documento,string nombre,string direccion,string ciudad,string pais,string correo,int rol,int confirmado)
         {
             this.Documento = documento;
             this.Nombre = nombre;
@@ -27,7 +34,8 @@ namespace CompraExpressv2.Modelos
             this.Ciudad = ciudad;
             this.Pais = pais;
             this.Correo = correo;
-
+            this.rol = rol;
+            this.confirmado = confirmado;
         }
     }
 }
