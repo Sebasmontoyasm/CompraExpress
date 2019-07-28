@@ -143,6 +143,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="curl">
+      <Version>7.30.0.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.618606" />
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform" Version="6.2.8" />
   </ItemGroup>

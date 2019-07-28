@@ -4,18 +4,51 @@ using System.Text;
 
 namespace CompraExpressv2.Modelos
 {
+    /**
+     * Clase encargada del modelo logico de los Productos
+     * que se van a ofertar y comprar por parte del cliente
+     * para su correcto funcionamiento
+     * @Autor Sebastian Montoya
+     * @Version 1.2
+     **/
     public class Producto
     {
-        public string id { get; set; }
-        public string nombre { get;set; }
-        public string descripcion { get;set; }
+        public string Idp { get; set; }
+        public string Nombre { get;set; }
+        public string Descripcion { get;set; }
         public int Precio { get; set; }
-
-        public Producto(string newid,string nombre,string newdescripcion,int precio)
+        public int Cantidad { get; set; }
+        public string Figura { get; set; }
+        /**
+         * Constructor con los parametros necesarios para crear un nuevo producto
+         * @param newid @type string id del producto 
+         * @param nombre @type string nombre nombre del producto  
+         * @param newdescripcion @type string descripcion del producto
+         * @param precio @type int precio del producto
+         * @param cantidad @type int cantidad del producto en la informacion
+         * @param figura @type string ruta con la imagen del producto
+         **/
+        public Producto(string newid,string nombre,string newdescripcion,int precio,int cantidad,string figura)
         {
-            this.id = newid;
-            this.nombre = nombre;
-            this.descripcion = newdescripcion;
+            this.Idp = newid;
+            this.Nombre = nombre;
+            this.Descripcion = newdescripcion;
+            this.Precio = precio;
+            this.Cantidad = cantidad;
+            this.Figura = figura;
+        }
+        /** 
+          * Constructor especifico para confirmarCompra y mandar a la base de datos.
+          * @param newid @type string id del producto 
+         *  @param nombre @type string nombre nombre del producto  
+         *  @param newdescripcion @type string descripcion del producto
+         *  @param precio @type int precio del producto
+          **/
+        public Producto(string newid, string nombre, string newdescripcion, int precio)
+        {
+            this.Idp = newid;
+            this.Nombre = nombre;
+            this.Descripcion = newdescripcion;
             this.Precio = precio;
         }
     }
