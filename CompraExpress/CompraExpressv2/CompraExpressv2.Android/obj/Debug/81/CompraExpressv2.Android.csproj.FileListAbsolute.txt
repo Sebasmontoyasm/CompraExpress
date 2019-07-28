@@ -309,4 +309,6 @@ C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpres
 C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
 C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csprojAssemblyReference.cache
-C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
+C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.dll.CodeAnalysisLog.xml
+C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.dll.lastcodeanalysissucceeded
+C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\_javastubs.stamp

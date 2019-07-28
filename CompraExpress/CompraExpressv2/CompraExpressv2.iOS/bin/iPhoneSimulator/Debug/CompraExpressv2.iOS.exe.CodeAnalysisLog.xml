@@ -10,17 +10,17 @@
        <Types>
         <Type Name="App" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="DefaultConstructorsMustHaveConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2132" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+          <Message TypeName="DefaultConstructorsMustHaveConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2132" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
            <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">'App' se deriva de 'Application', que tiene un constructor predeterminado crítico para la seguridad, mientras que 'App' tiene un constructor predeterminado transparente o crítico para la seguridad y disponible desde código transparente. Cambie el constructor predeterminado de 'App' para que sea crítico para la seguridad, con el fin de permitir que esta relación de herencia funcione correctamente.</Issue>
           </Message>
-          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
            <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">El tipo transparente o crítico para la seguridad y disponible desde código transparente 'App' se deriva del tipo crítico para la seguridad 'Application', con lo que infringe las reglas de herencia de transparencia. 'App' debe ser crítico para la seguridad para poder derivarse de un tipo crítico para la seguridad o implementar una interfaz crítica para la seguridad.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2" File="App.xaml.cs" Line="11">El método transparente 'App.App()' hace referencia al método crítico para la seguridad 'Application.Application()'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'App.App()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'Application.Application()' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2" File="App.xaml.cs" Line="11">El método transparente 'App.App()' hace referencia al método crítico para la seguridad 'Application.MainPage.set(Page)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'App.App()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'Application.MainPage.set(Page)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
             </Message>
@@ -28,37 +28,37 @@
           </Member>
           <Member Name="#__InitComponentRuntime()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError">El método transparente 'App.__InitComponentRuntime()' hace referencia al método crítico para la seguridad 'Extensions.LoadFromXaml&lt;App&gt;(this App, Type)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'App.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'Extensions.LoadFromXaml&lt;App&gt;(this App, Type)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OnResume()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MethodsMustOverrideWithConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2134" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="MethodsMustOverrideWithConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2134" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="TransparentOverrideCritical" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2" File="App.xaml.cs" Line="29">El método transparente o crítico para la seguridad y disponible desde código transparente 'App.OnResume()' invalida al método crítico para la seguridad 'Application.OnResume()', con lo que infringe las reglas de invalidación de métodos. 'App.OnResume()' debe convertirse en crítico para la seguridad para poder invalidar un método virtual crítico para la seguridad o implementar un método de interfaz crítico para la seguridad.</Issue>
             </Message>
-            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="Breaking">
+            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="Breaking">
              <Issue Name="BaseOnly" Certainty="33" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2" File="App.xaml.cs" Line="29">Agregue el siguiente atributo de seguridad a 'App.OnResume()' para que coincida con un LinkDemand del método base 'Application.OnResume()': 'SecurityCriticalAttribute'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OnSleep()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MethodsMustOverrideWithConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2134" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="MethodsMustOverrideWithConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2134" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="TransparentOverrideCritical" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2" File="App.xaml.cs" Line="24">El método transparente o crítico para la seguridad y disponible desde código transparente 'App.OnSleep()' invalida al método crítico para la seguridad 'Application.OnSleep()', con lo que infringe las reglas de invalidación de métodos. 'App.OnSleep()' debe convertirse en crítico para la seguridad para poder invalidar un método virtual crítico para la seguridad o implementar un método de interfaz crítico para la seguridad.</Issue>
             </Message>
-            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="Breaking">
+            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="Breaking">
              <Issue Name="BaseOnly" Certainty="33" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2" File="App.xaml.cs" Line="24">Agregue el siguiente atributo de seguridad a 'App.OnSleep()' para que coincida con un LinkDemand del método base 'Application.OnSleep()': 'SecurityCriticalAttribute'.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#OnStart()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="MethodsMustOverrideWithConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2134" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="MethodsMustOverrideWithConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2134" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="TransparentOverrideCritical" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2" File="App.xaml.cs" Line="19">El método transparente o crítico para la seguridad y disponible desde código transparente 'App.OnStart()' invalida al método crítico para la seguridad 'Application.OnStart()', con lo que infringe las reglas de invalidación de métodos. 'App.OnStart()' debe convertirse en crítico para la seguridad para poder invalidar un método virtual crítico para la seguridad o implementar un método de interfaz crítico para la seguridad.</Issue>
             </Message>
-            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="Breaking">
+            <Message TypeName="OverrideLinkDemandsShouldBeIdenticalToBase" Category="Microsoft.Security" CheckId="CA2123" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="Breaking">
              <Issue Name="BaseOnly" Certainty="33" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2" File="App.xaml.cs" Line="19">Agregue el siguiente atributo de seguridad a 'App.OnStart()' para que coincida con un LinkDemand del método base 'Application.OnStart()': 'SecurityCriticalAttribute'.</Issue>
             </Message>
            </Messages>
@@ -67,24 +67,24 @@
         </Type>
         <Type Name="MainPage" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="DefaultConstructorsMustHaveConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2132" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+          <Message TypeName="DefaultConstructorsMustHaveConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2132" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
            <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">'MainPage' se deriva de 'ContentPage', que tiene un constructor predeterminado crítico para la seguridad, mientras que 'MainPage' tiene un constructor predeterminado transparente o crítico para la seguridad y disponible desde código transparente. Cambie el constructor predeterminado de 'MainPage' para que sea crítico para la seguridad, con el fin de permitir que esta relación de herencia funcione correctamente.</Issue>
           </Message>
-          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
            <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">El tipo transparente o crítico para la seguridad y disponible desde código transparente 'MainPage' se deriva del tipo crítico para la seguridad 'ContentPage', con lo que infringe las reglas de herencia de transparencia. 'MainPage' debe ser crítico para la seguridad para poder derivarse de un tipo crítico para la seguridad o implementar una interfaz crítica para la seguridad.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2" File="MainPage.xaml.cs" Line="12">El método transparente 'MainPage.MainPage()' hace referencia al método crítico para la seguridad 'ContentPage.ContentPage()'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'MainPage.MainPage()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'ContentPage.ContentPage()' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#__InitComponentRuntime()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError">El método transparente 'MainPage.__InitComponentRuntime()' hace referencia al método crítico para la seguridad 'Extensions.LoadFromXaml&lt;MainPage&gt;(this MainPage, Type)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'MainPage.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'Extensions.LoadFromXaml&lt;MainPage&gt;(this MainPage, Type)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
             </Message>
            </Messages>
@@ -97,17 +97,17 @@
        <Types>
         <Type Name="ConfirmarCompraPage" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="DefaultConstructorsMustHaveConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2132" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+          <Message TypeName="DefaultConstructorsMustHaveConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2132" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
            <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">'ConfirmarCompraPage' se deriva de 'ContentPage', que tiene un constructor predeterminado crítico para la seguridad, mientras que 'ConfirmarCompraPage' tiene un constructor predeterminado transparente o crítico para la seguridad y disponible desde código transparente. Cambie el constructor predeterminado de 'ConfirmarCompraPage' para que sea crítico para la seguridad, con el fin de permitir que esta relación de herencia funcione correctamente.</Issue>
           </Message>
-          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
            <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">El tipo transparente o crítico para la seguridad y disponible desde código transparente 'ConfirmarCompraPage' se deriva del tipo crítico para la seguridad 'ContentPage', con lo que infringe las reglas de herencia de transparencia. 'ConfirmarCompraPage' debe ser crítico para la seguridad para poder derivarse de un tipo crítico para la seguridad o implementar una interfaz crítica para la seguridad.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2\Views" File="ConfirmarCompraPage.xaml.cs" Line="23">El método transparente 'ConfirmarCompraPage.ConfirmarCompraPage()' hace referencia al método crítico para la seguridad 'BindableObject.BindingContext.set(object)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'ConfirmarCompraPage.ConfirmarCompraPage()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'BindableObject.BindingContext.set(object)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2\Views" File="ConfirmarCompraPage.xaml.cs" Line="23">El método transparente 'ConfirmarCompraPage.ConfirmarCompraPage()' hace referencia al método crítico para la seguridad 'ContentPage.ContentPage()'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'ConfirmarCompraPage.ConfirmarCompraPage()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'ContentPage.ContentPage()' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
             </Message>
@@ -115,38 +115,8 @@
           </Member>
           <Member Name="#__InitComponentRuntime()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError">El método transparente 'ConfirmarCompraPage.__InitComponentRuntime()' hace referencia al método crítico para la seguridad 'Extensions.LoadFromXaml&lt;ConfirmarCompraPage&gt;(this ConfirmarCompraPage, Type)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'ConfirmarCompraPage.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'Extensions.LoadFromXaml&lt;ConfirmarCompraPage&gt;(this ConfirmarCompraPage, Type)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-         </Members>
-        </Type>
-        <Type Name="Login" Kind="Class" Accessibility="Public" ExternallyVisible="True">
-         <Messages>
-          <Message TypeName="DefaultConstructorsMustHaveConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2132" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
-           <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">'Login' se deriva de 'ContentPage', que tiene un constructor predeterminado crítico para la seguridad, mientras que 'Login' tiene un constructor predeterminado transparente o crítico para la seguridad y disponible desde código transparente. Cambie el constructor predeterminado de 'Login' para que sea crítico para la seguridad, con el fin de permitir que esta relación de herencia funcione correctamente.</Issue>
-          </Message>
-          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
-           <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">El tipo transparente o crítico para la seguridad y disponible desde código transparente 'Login' se deriva del tipo crítico para la seguridad 'ContentPage', con lo que infringe las reglas de herencia de transparencia. 'Login' debe ser crítico para la seguridad para poder derivarse de un tipo crítico para la seguridad o implementar una interfaz crítica para la seguridad.</Issue>
-          </Message>
-         </Messages>
-         <Members>
-          <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
-           <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
-             <Issue Name="MethodReference" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2\Views" File="Login.xaml.cs" Line="19">El método transparente 'Login.Login()' hace referencia al método crítico para la seguridad 'ContentPage.ContentPage()'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'Login.Login()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'ContentPage.ContentPage()' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
-            </Message>
-           </Messages>
-          </Member>
-          <Member Name="#__InitComponentRuntime()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
-           <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
-             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">El método transparente 'Login.__InitComponentRuntime()' hace referencia al método crítico para la seguridad 'Extensions.LoadFromXaml&lt;Login&gt;(this Login, Type)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'Login.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'Extensions.LoadFromXaml&lt;Login&gt;(this Login, Type)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
-             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">El método transparente 'Login.__InitComponentRuntime()' hace referencia al método crítico para la seguridad 'NameScopeExtensions.FindByName&lt;Entry&gt;(this Element, string)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'Login.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'NameScopeExtensions.FindByName&lt;Entry&gt;(this Element, string)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
-             <Issue Name="MethodReference" Certainty="99" Level="CriticalError">El método transparente 'Login.__InitComponentRuntime()' hace referencia al método crítico para la seguridad 'NameScopeExtensions.FindByName&lt;Entry&gt;(this Element, string)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'Login.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'NameScopeExtensions.FindByName&lt;Entry&gt;(this Element, string)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
-             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">El método transparente 'Login.__InitComponentRuntime()' hace referencia al tipo crítico para la seguridad 'Entry'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'Login.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'Entry' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
-             <Issue Name="TypeReference" Certainty="99" Level="CriticalError">El método transparente 'Login.__InitComponentRuntime()' hace referencia al tipo crítico para la seguridad 'Entry'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'Login.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'Entry' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
             </Message>
            </Messages>
           </Member>
@@ -154,24 +124,24 @@
         </Type>
         <Type Name="login1" Kind="Class" Accessibility="Public" ExternallyVisible="True">
          <Messages>
-          <Message TypeName="DefaultConstructorsMustHaveConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2132" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+          <Message TypeName="DefaultConstructorsMustHaveConsistentTransparencyFxCopRule" Category="Microsoft.Security" CheckId="CA2132" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
            <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">'login1' se deriva de 'ContentPage', que tiene un constructor predeterminado crítico para la seguridad, mientras que 'login1' tiene un constructor predeterminado transparente o crítico para la seguridad y disponible desde código transparente. Cambie el constructor predeterminado de 'login1' para que sea crítico para la seguridad, con el fin de permitir que esta relación de herencia funcione correctamente.</Issue>
           </Message>
-          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+          <Message TypeName="TypesMustBeAtLeastAsCriticalAsBaseTypesFxCopRule" Category="Microsoft.Security" CheckId="CA2146" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
            <Issue Name="DeriveFromCritical" Certainty="99" Level="CriticalError">El tipo transparente o crítico para la seguridad y disponible desde código transparente 'login1' se deriva del tipo crítico para la seguridad 'ContentPage', con lo que infringe las reglas de herencia de transparencia. 'login1' debe ser crítico para la seguridad para poder derivarse de un tipo crítico para la seguridad o implementar una interfaz crítica para la seguridad.</Issue>
           </Message>
          </Messages>
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
-             <Issue Name="MethodReference" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2\Views" File="login1.xaml.cs" Line="17">El método transparente 'login1.login1()' hace referencia al método crítico para la seguridad 'ContentPage.ContentPage()'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'login1.login1()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'ContentPage.ContentPage()' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
+             <Issue Name="MethodReference" Certainty="99" Level="CriticalError" Path="C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2\Views" File="login1.xaml.cs" Line="21">El método transparente 'login1.login1()' hace referencia al método crítico para la seguridad 'ContentPage.ContentPage()'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'login1.login1()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'ContentPage.ContentPage()' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
             </Message>
            </Messages>
           </Member>
           <Member Name="#__InitComponentRuntime()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
            <Messages>
-            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-27 23:09:31Z" FixCategory="DependsOnFix">
+            <Message TypeName="TransparentMethodsMustNotReferenceCriticalCodeFxCopRule" Category="Microsoft.Security" CheckId="CA2140" Status="Active" Created="2019-07-28 03:27:53Z" FixCategory="DependsOnFix">
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError">El método transparente 'login1.__InitComponentRuntime()' hace referencia al método crítico para la seguridad 'Extensions.LoadFromXaml&lt;login1&gt;(this login1, Type)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'login1.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'Extensions.LoadFromXaml&lt;login1&gt;(this login1, Type)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError">El método transparente 'login1.__InitComponentRuntime()' hace referencia al método crítico para la seguridad 'NameScopeExtensions.FindByName&lt;Entry&gt;(this Element, string)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'login1.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'NameScopeExtensions.FindByName&lt;Entry&gt;(this Element, string)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>
              <Issue Name="MethodReference" Certainty="99" Level="CriticalError">El método transparente 'login1.__InitComponentRuntime()' hace referencia al método crítico para la seguridad 'NameScopeExtensions.FindByName&lt;Entry&gt;(this Element, string)'. Para que se permita esta referencia bajo las reglas de transparencia de seguridad, 'login1.__InitComponentRuntime()' debe convertirse en crítico para la seguridad o crítico para la seguridad y disponible desde código transparente, o bien 'NameScopeExtensions.FindByName&lt;Entry&gt;(this Element, string)' debe convertirse en crítico para la seguridad y disponible desde código transparente o transparente.</Issue>

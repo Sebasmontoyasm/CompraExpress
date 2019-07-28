@@ -166,7 +166,6 @@ C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpres
 C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\App.xaml.g.cs
 C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\MainPage.xaml.g.cs
 C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\Views\ConfirmarCompraPage.xaml.g.cs
-C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\Views\Login.xaml.g.cs
 C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\Views\login1.xaml.g.cs
 C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\CompraExpressv2.iOS.csproj.CoreCompileInputs.cache
 C:\Users\lina\Documents\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.iOS\obj\iPhoneSimulator\Debug\XamlC.stamp
