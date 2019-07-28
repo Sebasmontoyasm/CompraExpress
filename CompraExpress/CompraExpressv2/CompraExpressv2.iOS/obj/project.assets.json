@@ -756,20 +756,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sebas Montoya\\.nuget\\packages\\": {}
+    "C:\\Users\\lina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\CompraExpressv2.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\lina\\Documents\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\CompraExpressv2.iOS.csproj",
       "projectName": "CompraExpressv2.iOS",
-      "projectPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\CompraExpressv2.iOS.csproj",
-      "packagesPath": "C:\\Users\\Sebas Montoya\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\obj\\",
+      "projectPath": "C:\\Users\\lina\\Documents\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\CompraExpressv2.iOS.csproj",
+      "packagesPath": "C:\\Users\\lina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lina\\Documents\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Sebas Montoya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

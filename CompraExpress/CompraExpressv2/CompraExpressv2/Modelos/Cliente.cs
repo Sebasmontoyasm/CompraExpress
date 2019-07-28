@@ -17,9 +17,11 @@ namespace CompraExpressv2.Modelos
 
         public string Correo { get; set; }
 
+        public string Clave { get; set; }
+
        
 
-        public Cliente(int documento,string nombre,string direccion,string ciudad,string pais,string correo)
+        public Cliente(int documento,string nombre,string direccion,string ciudad,string pais,string correo,string clave)
         {
             this.Documento = documento;
             this.Nombre = nombre;
@@ -27,6 +29,7 @@ namespace CompraExpressv2.Modelos
             this.Ciudad = ciudad;
             this.Pais = pais;
             this.Correo = correo;
+            this.Clave = clave;
 
         }
     }

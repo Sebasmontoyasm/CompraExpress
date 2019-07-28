@@ -22,7 +22,7 @@ namespace CompraExpressv2.Views
     
         public ConfirmarCompraPage()
         {
-            this.cliente = new Cliente(1053854498,"Sebastian Montoya", "Cra 36a #10D-66","Manizales","Colombia","sebasmontoyasm@gmail.com");
+            this.cliente = new Cliente(1053854498,"Sebastian Montoya", "Cra 36a #10D-66","Manizales","Colombia","sebasmontoyasm@gmail.com","caballo");
             this.empresa = new Empresa("1701410810","Ktronix", "6016 6071 9235 4142");
             this.producto = new Producto("13045876", "Portatil Gamer HP", "Procesador i5 " +
                                                                     "SO: Windows Home " +
@@ -48,6 +48,6 @@ namespace CompraExpressv2.Views
 			InitializeComponent ();
 		}
 
-        private
+        
     }
 }

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompraExpressv2.Views.login1">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Spacing="0" Padding="0" BackgroundColor="White">
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="100"
+                 VerticalOptions="Start" Color="White" />
+                <Image Source ="logo.png"></Image>
+                <StackLayout HeightRequest="100" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Spacing="20" BackgroundColor="White">
+                    <Label Text="Bienvenido" FontSize="28" HorizontalOptions="Center"
+                         VerticalOptions="Center" FontAttributes="Bold" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Entry x:Name="correoF" Margin="50,10,50,10" HorizontalOptions="FillAndExpand"  Placeholder="Correo"  TextColor="Black" BackgroundColor="White"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Entry  x:Name="claveF" Margin="50,10,50,10" IsPassword="True"  HorizontalOptions="FillAndExpand" Placeholder="Contraseña"  TextColor="Black" BackgroundColor="White" />
+                </StackLayout>
+                <StackLayout>
+                    <Button BackgroundColor="AliceBlue" Margin="50,10,50,10" TextColor="Black" FontAttributes="Bold"  Clicked="Button_Clicked"  Text="INICIAR SESIÓN"></Button>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

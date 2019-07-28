@@ -150,6 +150,12 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.1.0.581479" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wallpaper.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\CompraExpressv2\CompraExpressv2.projitems" Label="Shared" />
 </Project>

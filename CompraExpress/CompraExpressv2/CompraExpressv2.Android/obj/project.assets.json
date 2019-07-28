@@ -2,6 +2,17 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Xam.Plugin.Connectivity/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/MonoAndroid10/Plugin.Connectivity.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.1": {
         "type": "package",
         "dependencies": {
@@ -328,7 +339,7 @@
           "build/monoandroid81/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
-      "Xamarin.Forms/4.1.0.581479": {
+      "Xamarin.Forms/4.1.0.618606": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.CustomTabs": "28.0.0.1",
@@ -359,6 +370,74 @@
     }
   },
   "libraries": {
+    "Xam.Plugin.Connectivity/3.2.0": {
+      "sha512": "ZV45TaBTCJg7XQNEl3fPyyJcuMMhdDEQ6BCLc/5pMuTv38M226ER0WTu5sbmba8jlliDuzeRqkRFHwrGdWAgyg==",
+      "type": "package",
+      "path": "xam.plugin.connectivity/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.xml",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.dll",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.xml",
+        "lib/UAP10/Plugin.Connectivity.XML",
+        "lib/UAP10/Plugin.Connectivity.dll",
+        "lib/UAP10/Plugin.Connectivity.pdb",
+        "lib/UAP10/Plugin.Connectivity.pri",
+        "lib/UAP10/Plugin.Connectivity/Properties/Plugin.Connectivity.rd.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.xml",
+        "lib/net45/Plugin.Connectivity.Abstractions.dll",
+        "lib/net45/Plugin.Connectivity.Abstractions.pdb",
+        "lib/net45/Plugin.Connectivity.Abstractions.xml",
+        "lib/net45/Plugin.Connectivity.XML",
+        "lib/net45/Plugin.Connectivity.dll",
+        "lib/net45/Plugin.Connectivity.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netcoreapp2.0/Plugin.Connectivity.deps.json",
+        "lib/netcoreapp2.0/Plugin.Connectivity.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.deps.json",
+        "lib/netstandard1.0/Plugin.Connectivity.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.xml",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.dll",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.pdb",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.xml",
+        "lib/tizen40/Plugin.Connectivity.deps.json",
+        "lib/tizen40/Plugin.Connectivity.dll",
+        "xam.plugin.connectivity.3.2.0.nupkg.sha512",
+        "xam.plugin.connectivity.nuspec"
+      ]
+    },
     "Xamarin.Android.Arch.Core.Common/1.1.1.1": {
       "sha512": "KuubEy2Ve5TLdAWkaa5L4Ud36FClJEQR5a9JRi/mwk8mRxUZ27zly65kpg/Mi/npfZxEotq4MCKIj88lW6Nqhg==",
       "type": "package",
@@ -801,10 +880,10 @@
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
-    "Xamarin.Forms/4.1.0.581479": {
-      "sha512": "wrO8AOW1xsFoGgT1SUvJ9OEeqAduJOm0xezZGNe0rCiAv2N9Qc/n5uywhlSia1s1k+Zy/hOrhZ4b7/EM6z9oog==",
+    "Xamarin.Forms/4.1.0.618606": {
+      "sha512": "qJoOu0DiSzsfQj7nuMtKUcl39KsUxfU9yDJ5HU1flM+hnOrSD6IyDgKKxOkqIdmVwAL8R6hISz+b8MB4P5oDFw==",
       "type": "package",
-      "path": "xamarin.forms/4.1.0.581479",
+      "path": "xamarin.forms/4.1.0.618606",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1043,36 +1122,37 @@
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.1.0.581479.nupkg.sha512",
+        "xamarin.forms.4.1.0.618606.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Xam.Plugin.Connectivity >= 3.2.0",
       "Xamarin.Android.Support.Design >= 28.0.0.1",
       "Xamarin.Android.Support.v4 >= 28.0.0.1",
       "Xamarin.Android.Support.v7.AppCompat >= 28.0.0.1",
       "Xamarin.Android.Support.v7.CardView >= 28.0.0.1",
       "Xamarin.Android.Support.v7.MediaRouter >= 28.0.0.1",
-      "Xamarin.Forms >= 4.1.0.581479"
+      "Xamarin.Forms >= 4.1.0.618606"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sebas Montoya\\.nuget\\packages\\": {}
+    "C:\\Users\\lina\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\CompraExpressv2.Android.csproj",
+      "projectUniqueName": "C:\\Users\\lina\\Documents\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\CompraExpressv2.Android.csproj",
       "projectName": "CompraExpressv2.Android",
-      "projectPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\CompraExpressv2.Android.csproj",
-      "packagesPath": "C:\\Users\\Sebas Montoya\\.nuget\\packages\\",
-      "outputPath": "C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\obj\\",
+      "projectPath": "C:\\Users\\lina\\Documents\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\CompraExpressv2.Android.csproj",
+      "packagesPath": "C:\\Users\\lina\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lina\\Documents\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Sebas Montoya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lina\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1091,6 +1171,10 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Xam.Plugin.Connectivity": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
             "version": "[28.0.0.1, )"
@@ -1113,7 +1197,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.1.0.581479, )"
+            "version": "[4.1.0.618606, )"
           }
         }
       }
