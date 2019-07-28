@@ -29,7 +29,9 @@ namespace CompraExpressv2.Views
                                                                     "Memoria ram: 8GB " +
                                                                     "Disco duro: 1 TB " +
                                                                     "Pantalla 15.6 pulgadas" +
-                                                                    "Tarjeta Grafica: NVIDIA ", 224900);
+                                                                    "Tarjeta Grafica: NVIDIA ", 224900,3,"pollo.jpg");
+            
+
             LinkedList<Producto> productos = new LinkedList<Producto>();
             productos.Append(producto);
 

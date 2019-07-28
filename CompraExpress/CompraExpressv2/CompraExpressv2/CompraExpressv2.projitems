@@ -23,13 +23,33 @@
     <Compile Include="$(MSBuildThisFileDirectory)Modelos\Cliente.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Modelos\Compra.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Modelos\Empresa.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ComprarProducto.xaml.cs">
+      <DependentUpon>ComprarProducto.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\ConfirmarCompraPage.xaml.cs">
       <DependentUpon>ConfirmarCompraPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ListaProductos.xaml.cs">
+      <DependentUpon>ListaProductos.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ConfirmarCompraPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ComprarProducto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ListaProductos.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

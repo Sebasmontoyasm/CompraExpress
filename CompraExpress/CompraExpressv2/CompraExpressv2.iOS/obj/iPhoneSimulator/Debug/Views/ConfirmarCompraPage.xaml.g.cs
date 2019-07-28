@@ -13,8 +13,8 @@
 namespace CompraExpressv2.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\ProyectoSoftware3\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2\\" +
-        "Views\\ConfirmarCompraPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("E:\\softwareProyecto\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2\\V" +
+        "iews\\ConfirmarCompraPage.xaml")]
     public partial class ConfirmarCompraPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompraExpressv2.Views.ListaProductos">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="plainButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="BorderRadius" Value="0"/>
+                <Setter Property="FontSize" Value="40" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+
+
+
+
+
+
+
+        <Grid x:Name="controlGrid" >
+            <StackLayout Orientation="Horizontal" Grid.Column="0">
+                <StackLayout>
+                    <Button Text="Registrarse" Grid.Column="0" Margin="25,0,0,0" />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Grid.Column="2">
+                <StackLayout>
+                    <Button Text="Iniciar Sesion"  Grid.Column="2"/>
+                </StackLayout>
+            </StackLayout>
+
+
+
+            <StackLayout  Orientation="Vertical" HorizontalOptions="CenterAndExpand" Grid.ColumnSpan="3">
+                <Label TextColor="Black" FontSize="20" Text="Productos"></Label>
+                <Entry x:Name="Search" Placeholder="Buscar" TextColor="Black" Margin="5,5,5,5" />
+            </StackLayout>
+            <Button ImageSource="celular2.jpg" Grid.Row="1" Grid.Column="0" Clicked="button_click"
+        Style="{StaticResource plainButton}" />
+            <Button ImageSource="img2.jpeg" Grid.Row="1" Grid.Column="1" Clicked="button_click"
+        Style="{StaticResource plainButton}" />
+            <Button ImageSource="celular1.jpg" Grid.Row="1" Grid.Column="2" Clicked="button_click"
+        Style="{StaticResource plainButton}" />
+            <Button ImageSource="pc.png" Grid.Row="2" Grid.Column="0" Clicked="button_click"
+        Style="{StaticResource plainButton}" />
+            <Button ImageSource="img4.jpeg" Grid.Row="2" Grid.Column="1" Clicked="button_click"
+        Style="{StaticResource plainButton}" />
+            <Button ImageSource="pcgamer1.png" Grid.Row="2" Grid.Column="2" Clicked="button_click"
+        Style="{StaticResource plainButton}" />
+            <Button ImageSource="pollo.jpg" Grid.Row="3" Grid.Column="0" Clicked="button_click"
+        Style="{StaticResource plainButton}" />
+            <Button ImageSource="router.jpeg" Grid.Row="3" Grid.Column="1" Clicked="button_click"
+        Style="{StaticResource plainButton}" />
+            <Button ImageSource="router1.jpg" Grid.Row="3" Grid.Column="2" Clicked="button_click"
+        Style="{StaticResource plainButton}" />
+
+            <StackLayout  Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Grid.Row="4" Grid.Column="0">
+                <StackLayout>
+                    <Button ImageSource="atras1.png" x:Name="BackButton" />
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Grid.Row="4" Grid.Column="1">
+                <StackLayout>
+                    <Label TextColor="Black" FontSize="16" Text="Paginas"></Label>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Grid.Row="4" Grid.Column="2">
+                <StackLayout>
+                    <Button ImageSource="adelante.png" x:Name="NextButton" />
+                </StackLayout>
+            </StackLayout>
+
+
+
+        </Grid>
+
+
+    </ContentPage.Content>
+</ContentPage>
