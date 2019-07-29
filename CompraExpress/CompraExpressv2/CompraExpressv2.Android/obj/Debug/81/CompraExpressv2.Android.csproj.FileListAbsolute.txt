@@ -1,201 +1,228 @@
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.dll
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\com.companyname.CompraExpressv2.apk
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\com.companyname.CompraExpressv2-Signed.apk
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.nuget.stamp
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csprojAssemblyReference.cache
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\libraryimports.cache.stamp
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res.flag
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\App.xaml.g.cs
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MainPage.xaml.g.cs
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csproj.CoreCompileInputs.cache
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\XamlC.stamp
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.dll
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\bin\com.companyname.CompraExpressv2.apk
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\layout\tabbar.xml
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\layout\toolbar.xml
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\values\styles.xml
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\values\colors.xml
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon.xml
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon_round.xml
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-hdpi\icon.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-hdpi\launcher_foreground.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-mdpi\icon.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-mdpi\launcher_foreground.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xhdpi\icon.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xhdpi\launcher_foreground.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxhdpi\icon.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\R.cs.flag
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\R.txt
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\uploadflags.txt
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\FormsViewGroup.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Mono.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\mscorlib.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Core.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Xml.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Xml.Linq.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Data.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Numerics.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Transactions.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.IO.Compression.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.IO.Compression.FileSystem.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.ComponentModel.Composition.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Net.Http.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Runtime.Serialization.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.ServiceModel.Internals.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Web.Services.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Mono.Security.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\CompraExpressv2.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Mono.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\mscorlib.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Core.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Xml.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Xml.Linq.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Data.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Numerics.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Transactions.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.IO.Compression.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Net.Http.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\CompraExpressv2.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Mono.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Mono.Security.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\mscorlib.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Core.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Data.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.IO.Compression.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Net.Http.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Numerics.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Transactions.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Web.Services.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Xml.Linq.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Xml.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
-C:\Users\Sebas Montoya\source\repos\CompraExpressv2\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.dll
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\com.companyname.CompraExpressv2.apk
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\com.companyname.CompraExpressv2-Signed.apk
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.nuget.stamp
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\libraryimports.cache.stamp
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res.flag
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\App.xaml.g.cs
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MainPage.xaml.g.cs
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\ConfirmarCompraPage.xaml.g.cs
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csproj.CoreCompileInputs.cache
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\XamlC.stamp
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.dll
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\bin\com.companyname.CompraExpressv2.apk
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\layout\tabbar.xml
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\layout\toolbar.xml
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\values\styles.xml
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\values\colors.xml
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon.xml
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon_round.xml
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-hdpi\icon.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-hdpi\launcher_foreground.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-mdpi\icon.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-mdpi\launcher_foreground.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xhdpi\icon.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xhdpi\launcher_foreground.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxhdpi\icon.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\R.cs.flag
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\R.txt
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\uploadflags.txt
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\FormsViewGroup.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Mono.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\mscorlib.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Core.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Xml.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Xml.Linq.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Core.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Data.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Numerics.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Transactions.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.IO.Compression.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.IO.Compression.FileSystem.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.ComponentModel.Composition.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Net.Http.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Runtime.Serialization.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.ServiceModel.Internals.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Web.Services.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Mono.Security.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\CompraExpressv2.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Mono.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\mscorlib.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Core.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Xml.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Xml.Linq.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Data.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Numerics.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Transactions.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.IO.Compression.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Net.Http.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\CompraExpressv2.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Mono.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Mono.Security.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\mscorlib.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Core.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Data.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.IO.Compression.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Net.Http.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Numerics.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Transactions.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Web.Services.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Xml.Linq.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Xml.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
-C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csprojAssemblyReference.cache
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.dll
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\com.companyname.CompraExpressv2.apk
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\com.companyname.CompraExpressv2-Signed.apk
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.nuget.stamp
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csprojAssemblyReference.cache
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\libraryimports.cache.stamp
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res.flag
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\App.xaml.g.cs
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MainPage.xaml.g.cs
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\ConfirmarCompraPage.xaml.g.cs
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\ComprarProducto.xaml.g.cs
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\ListaProductos.xaml.g.cs
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csproj.CoreCompileInputs.cache
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\XamlC.stamp
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.dll
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\bin\com.companyname.CompraExpressv2.apk
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\layout\tabbar.xml
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\layout\toolbar.xml
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\values\styles.xml
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\values\colors.xml
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon.xml
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon_round.xml
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-hdpi\icon.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-hdpi\launcher_foreground.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-mdpi\icon.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-mdpi\launcher_foreground.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xhdpi\icon.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xhdpi\launcher_foreground.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxhdpi\icon.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\pollo.jpg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\pcgamer.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\fondo.jpg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\celular1.jpg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\celular2.jpg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\router.jpeg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\router1.jpg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\atras1.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\adelante.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\img2.jpeg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\img3.jpeg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\img4.jpeg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\img1.jpeg
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\pcgamer1.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\pc.png
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\R.cs.flag
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\R.txt
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\uploadflags.txt
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Mono.Android.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Mono.Security.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\mscorlib.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.ComponentModel.Composition.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Core.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Data.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.IO.Compression.FileSystem.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.IO.Compression.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Net.Http.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Numerics.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Runtime.Serialization.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.ServiceModel.Internals.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Transactions.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Web.Services.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Xml.Linq.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Xml.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Plugin.Connectivity.dll.mdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\CompraExpressv2.Android.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Mono.Android.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\mscorlib.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Plugin.Connectivity.Abstractions.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Core.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Xml.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Xml.Linq.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Data.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Numerics.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Transactions.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.IO.Compression.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Net.Http.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Mono.Security.pdb
+C:\Users\Sebas Montoya\Desktop\Repos\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.dll
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\CompraExpressv2.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\com.companyname.CompraExpressv2.apk
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\com.companyname.CompraExpressv2-Signed.apk
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.nuget.stamp
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\libraryimports.cache.stamp
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res.flag
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\App.xaml.g.cs
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\MainPage.xaml.g.cs
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\ConfirmarCompraPage.xaml.g.cs
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\ComprarProducto.xaml.g.cs
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\ListaProductos.xaml.g.cs
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\Login.xaml.g.cs
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\Views\RegistrarUsuario.xaml.g.cs
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csproj.CoreCompileInputs.cache
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\XamlC.stamp
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.dll
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\bin\com.companyname.CompraExpressv2.apk
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\layout\tabbar.xml
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\layout\toolbar.xml
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\values\styles.xml
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\values\colors.xml
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon.xml
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-anydpi-v26\icon_round.xml
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-hdpi\icon.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-hdpi\launcher_foreground.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-mdpi\icon.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-mdpi\launcher_foreground.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xhdpi\icon.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xhdpi\launcher_foreground.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxhdpi\icon.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxhdpi\launcher_foreground.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxxhdpi\icon.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\mipmap-xxxhdpi\launcher_foreground.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\pollo.jpg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\pcgamer.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\fondo.jpg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\celular1.jpg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\celular2.jpg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\router.jpeg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\router1.jpg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\atras1.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\adelante.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\img2.jpeg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\img3.jpeg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\img4.jpeg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\img1.jpeg
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\pcgamer1.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\pc.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\res\drawable\logo.png
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\R.cs.flag
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\R.txt
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\uploadflags.txt
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\FormsViewGroup.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Mono.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\mscorlib.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Core.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Xml.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Xml.Linq.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Data.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Numerics.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Transactions.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.IO.Compression.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.IO.Compression.FileSystem.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.ComponentModel.Composition.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Net.Http.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Runtime.Serialization.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.ServiceModel.Internals.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\System.Web.Services.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Mono.Security.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\CompraExpressv2.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Mono.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\mscorlib.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Plugin.Connectivity.Abstractions.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Core.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Xml.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Xml.Linq.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Core.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Platform.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Xamarin.Forms.Xaml.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Data.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Numerics.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Transactions.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.IO.Compression.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.IO.Compression.FileSystem.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.ComponentModel.Composition.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Net.Http.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Runtime.Serialization.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Mono.Security.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\bin\Debug\Plugin.Connectivity.dll.mdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\CompraExpressv2.Android.csprojAssemblyReference.cache
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Plugin.Connectivity.dll.mdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\CompraExpressv2.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Mono.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Mono.Security.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\mscorlib.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Plugin.Connectivity.Abstractions.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Core.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Data.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.IO.Compression.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Net.Http.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Numerics.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Transactions.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Web.Services.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Xml.Linq.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\System.Xml.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.Android\obj\Debug\81\linksrc\Plugin.Connectivity.dll.mdb

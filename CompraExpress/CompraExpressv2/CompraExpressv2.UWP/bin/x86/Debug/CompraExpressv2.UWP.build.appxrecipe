@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=f49ca9df-e99d-4e2e-9779-eb3907aba1cc</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\CompraExpressv2.UWP.exe">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\CompraExpressv2.UWP.exe">
       <PackagePath>entrypoint\CompraExpressv2.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -52,124 +52,124 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\CompraExpressv2.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\CompraExpressv2.UWP.xr.xml">
       <PackagePath>CompraExpressv2.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
@@ -178,10 +178,10 @@
     <AppxPackagedFile Include="C:\Users\Sebas Montoya\.nuget\packages\xamarin.forms\4.1.0.618606\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\ProyectoSoftware3\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\Core\CompraExpressv2.UWP.exe">
+    <AppxPackagedFile Include="C:\Repositorio\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\bin\x86\Debug\Core\CompraExpressv2.UWP.exe">
       <PackagePath>CompraExpressv2.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

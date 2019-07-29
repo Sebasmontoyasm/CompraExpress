@@ -13,7 +13,8 @@
 namespace CompraExpressv2 {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\ProyectoSoftware3\\CompraExpress\\CompraExpressv2\\CompraExpressv2\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Repositorio\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2\\MainPa" +
+        "ge.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

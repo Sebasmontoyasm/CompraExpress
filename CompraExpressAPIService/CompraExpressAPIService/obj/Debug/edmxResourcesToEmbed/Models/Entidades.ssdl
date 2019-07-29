@@ -29,8 +29,9 @@
     <Property Name="Nombre" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Precio" Type="int" Nullable="false" />
     <Property Name="Cantidad" Type="int" Nullable="false" />
-    <Property Name="Figura" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Figura" Type="nvarchar(max)" />
     <Property Name="Descripcion" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IdProvedor" Type="nvarchar(max)" />
   </EntityType>
   <EntityType Name="ProductosPedidos">
     <Key>
@@ -52,6 +53,7 @@
       <PropertyRef Name="Documento" />
     </Key>
     <Property Name="Documento" Type="int" Nullable="false" />
+    <Property Name="Tarjeta" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Nombre" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Apellido" Type="nvarchar(max)" Nullable="false" />
     <Property Name="Correo" Type="nvarchar(max)" Nullable="false" />

@@ -31,9 +31,10 @@
     <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Precio" Type="Int32" Nullable="false" />
     <Property Name="Cantidad" Type="Int32" Nullable="false" />
-    <Property Name="Figura" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Figura" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
     <Property Name="Descripcion" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
     <NavigationProperty Name="Pedidos" Relationship="Self.ProductosPedidos" FromRole="Productos" ToRole="Pedidos" />
+    <Property Name="IdProvedor" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
   <EntityType Name="Roles">
     <Key>
@@ -56,6 +57,7 @@
     <Property Name="confirmado" Type="Int32" Nullable="false" />
     <NavigationProperty Name="Pedidos" Relationship="Self.FK_dbo_Pedidos_dbo_Usuarios_Usuario" FromRole="Usuarios" ToRole="Pedidos" />
     <NavigationProperty Name="Roles" Relationship="Self.FK_dbo_Usuarios_dbo_Roles_Rol" FromRole="Usuarios" ToRole="Roles" />
+    <Property Name="Tarjeta" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
   </EntityType>
   <Association Name="FK_dbo_Pedidos_dbo_Usuarios_Usuario">
     <End Role="Usuarios" Type="Self.Usuarios" Multiplicity="1">

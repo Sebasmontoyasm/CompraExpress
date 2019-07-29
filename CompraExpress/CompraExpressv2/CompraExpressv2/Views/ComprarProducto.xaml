@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompraExpressv2.Views.ComprarProducto">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+
+                    <Label TextColor="Black" FontSize="50" Text="{Binding producto.Nombre}"></Label>
+
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+
+                    <Image HeightRequest="200" Source="{Binding producto.Figura}"></Image>
+
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Label TextColor="Black" FontAttributes="Bold" Text="$ "></Label>
+                    <Label TextColor="Black" Text="{Binding producto.Precio}"></Label>
+                    <Label TextColor="Black" FontAttributes="Bold" Text="  /Unidad."></Label>
+                </StackLayout>
+
+                <StackLayout x:Name="Container" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        <Label BindingContext="{x:Reference stepper}" Text="{Binding Value}" />
+                    </StackLayout>
+                    <Stepper  Minimum="1" Maximum="10000" x:Name="stepper" Increment="1" />
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button x:Name="btncomprar" BackgroundColor="AliceBlue" TextColor="Black" FontAttributes="Bold" Text="Comprar" Clicked="button_click" ></Button>
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Label TextColor="Black" Text="Descripcion del producto"></Label>
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <Label TextColor="Black" Margin="50, 20, 50, 20" Text="{Binding producto.Descripcion}"></Label>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

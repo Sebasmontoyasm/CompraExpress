@@ -2,118 +2,122 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
-using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
-using System.Web.Http;
-using System.Web.Http.Description;
+using System.Web;
+using System.Web.Mvc;
 using CompraExpressAPIService.Models;
 
 namespace CompraExpressAPIService.Controllers
 {
-    public class UsuariosController : ApiController
+    public class UsuariosController : Controller
     {
         private integrador db = new integrador();
 
-        // GET: api/Usuarios
-        public IQueryable<Usuarios> GetUsuarios()
+        // GET: Usuarios
+        public ActionResult Index()
         {
-            return db.Usuarios;
+            var usuarios = db.Usuarios.Include(u => u.Roles);
+            return View(usuarios.ToList());
         }
 
-        // GET: api/Usuarios/5
-        [ResponseType(typeof(Usuarios))]
-        public IHttpActionResult GetUsuarios(int id)
+        // GET: Usuarios/Details/5
+        public ActionResult Details(int? id)
         {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
             Usuarios usuarios = db.Usuarios.Find(id);
             if (usuarios == null)
             {
-                return NotFound();
+                return HttpNotFound();
             }
-
-            return Ok(usuarios);
+            return View(usuarios);
         }
 
-        // PUT: api/Usuarios/5
-        [ResponseType(typeof(void))]
-        public IHttpActionResult PutUsuarios(int id, Usuarios usuarios)
+        // GET: Usuarios/Create
+        public ActionResult Create()
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+            ViewBag.Rol = new SelectList(db.Roles, "Id", "Nombre");
+            return View();
+        }
 
-            if (id != usuarios.Documento)
+        // POST: Usuarios/Create
+        // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que desea enlazarse. Para obtener 
+        // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create([Bind(Include = "Documento,Nombre,Apellido,Correo,Password,Rol,confirmado,Tarjeta")] Usuarios usuarios)
+        {
+            if (ModelState.IsValid)
             {
-                return BadRequest();
-            }
-
-            db.Entry(usuarios).State = EntityState.Modified;
-
-            try
-            {
+                db.Usuarios.Add(usuarios);
                 db.SaveChanges();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!UsuariosExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
+                return RedirectToAction("Index");
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            ViewBag.Rol = new SelectList(db.Roles, "Id", "Nombre", usuarios.Rol);
+            return View(usuarios);
         }
 
-        // POST: api/Usuarios
-        [ResponseType(typeof(Usuarios))]
-        public IHttpActionResult PostUsuarios(Usuarios usuarios)
+        // GET: Usuarios/Edit/5
+        public ActionResult Edit(int? id)
         {
-            if (!ModelState.IsValid)
+            if (id == null)
             {
-                return BadRequest(ModelState);
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-
-            db.Usuarios.Add(usuarios);
-
-            try
-            {
-                db.SaveChanges();
-            }
-            catch (DbUpdateException)
-            {
-                if (UsuariosExists(usuarios.Documento))
-                {
-                    return Conflict();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return CreatedAtRoute("DefaultApi", new { id = usuarios.Documento }, usuarios);
-        }
-
-        // DELETE: api/Usuarios/5
-        [ResponseType(typeof(Usuarios))]
-        public IHttpActionResult DeleteUsuarios(int id)
-        {
             Usuarios usuarios = db.Usuarios.Find(id);
             if (usuarios == null)
             {
-                return NotFound();
+                return HttpNotFound();
             }
+            ViewBag.Rol = new SelectList(db.Roles, "Id", "Nombre", usuarios.Rol);
+            return View(usuarios);
+        }
 
+        // POST: Usuarios/Edit/5
+        // Para protegerse de ataques de publicación excesiva, habilite las propiedades específicas a las que desea enlazarse. Para obtener 
+        // más información vea https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit([Bind(Include = "Documento,Nombre,Apellido,Correo,Password,Rol,confirmado,Tarjeta")] Usuarios usuarios)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(usuarios).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            ViewBag.Rol = new SelectList(db.Roles, "Id", "Nombre", usuarios.Rol);
+            return View(usuarios);
+        }
+
+        // GET: Usuarios/Delete/5
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Usuarios usuarios = db.Usuarios.Find(id);
+            if (usuarios == null)
+            {
+                return HttpNotFound();
+            }
+            return View(usuarios);
+        }
+
+        // POST: Usuarios/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Usuarios usuarios = db.Usuarios.Find(id);
             db.Usuarios.Remove(usuarios);
             db.SaveChanges();
-
-            return Ok(usuarios);
+            return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing)
@@ -123,11 +127,6 @@ namespace CompraExpressAPIService.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
-        }
-
-        private bool UsuariosExists(int id)
-        {
-            return db.Usuarios.Count(e => e.Documento == id) > 0;
         }
     }
 }

@@ -12,7 +12,13 @@ namespace CompraExpressv2
         {
             InitializeComponent();
 
-            MainPage = new ConfirmarCompraPage();
+            //MainPage = new NavigationPage(new ConfirmarCompraPage());
+            //MainPage = new NavegationPage(new ComprarProducto());
+            //MainPage = new NavigationPage(new ListaProductos());
+            //MainPage = new NavigationPage(new ComprarProducto());
+            //MainPage = new NavigationPage(new Login());
+            MainPage = new NavigationPage (new RegistrarUsuario());
+            
         }
 
         protected override void OnStart()

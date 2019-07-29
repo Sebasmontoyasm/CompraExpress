@@ -108,6 +108,8 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "CompraExpressv2.Android.dll" comes first in this list. */
 		"CompraExpressv2.Android.dll",
 		"FormsViewGroup.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

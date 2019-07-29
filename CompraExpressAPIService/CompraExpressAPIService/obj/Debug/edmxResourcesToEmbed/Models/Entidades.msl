@@ -26,6 +26,7 @@
     <EntitySetMapping Name="Productos">
       <EntityTypeMapping TypeName="IntegradorModel.Productos">
         <MappingFragment StoreEntitySet="Productos">
+          <ScalarProperty Name="IdProvedor" ColumnName="IdProvedor" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Nombre" ColumnName="Nombre" />
           <ScalarProperty Name="Precio" ColumnName="Precio" />
@@ -46,6 +47,7 @@
     <EntitySetMapping Name="Usuarios">
       <EntityTypeMapping TypeName="IntegradorModel.Usuarios">
         <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="Tarjeta" ColumnName="Tarjeta" />
           <ScalarProperty Name="Documento" ColumnName="Documento" />
           <ScalarProperty Name="Nombre" ColumnName="Nombre" />
           <ScalarProperty Name="Apellido" ColumnName="Apellido" />

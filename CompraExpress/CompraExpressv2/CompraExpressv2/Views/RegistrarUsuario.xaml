@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CompraExpressv2.Views.RegistrarUsuario">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Spacing="10">
+            <Label Text="Documento: "></Label>
+            <Entry x:Name="entryDocumento"></Entry>
+
+            <Label Text="Nombre: "></Label>
+            <Entry x:Name="entryNombre"></Entry>
+
+            <Label Text="Apellido: "></Label>
+            <Entry x:Name="entryApellido"></Entry>
+
+            <Label Text="Correo Electronico: "></Label>
+            <Entry x:Name="entryCorreo"></Entry>
+
+
+            <Label Text="Contrasena: "></Label>
+            <Entry x:Name="entryContrasena"></Entry>
+
+            <Button x:Name="CrearUsuario" Text="Registrar" Clicked="OnButtonClicked" HorizontalOptions="Center"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
