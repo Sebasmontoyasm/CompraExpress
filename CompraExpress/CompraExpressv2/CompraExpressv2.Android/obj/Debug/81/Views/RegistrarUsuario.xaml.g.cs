@@ -13,8 +13,8 @@
 namespace CompraExpressv2.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Repositorio\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2\\Views\\" +
-        "RegistrarUsuario.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\ProyectoMovil\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2\\View" +
+        "s\\RegistrarUsuario.xaml")]
     public partial class RegistrarUsuario : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

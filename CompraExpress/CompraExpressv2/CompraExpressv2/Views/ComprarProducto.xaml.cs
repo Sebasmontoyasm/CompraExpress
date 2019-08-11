@@ -18,7 +18,7 @@ namespace CompraExpressv2.Views
         public Producto producto { get; set; }
 
 
-        public ComprarProducto ()
+        public ComprarProducto( )
         {
             this.producto = new Producto("13045876", "Portatil Gamer HP", "Procesador i5 " +
                                                                     "SO: Windows Home " +

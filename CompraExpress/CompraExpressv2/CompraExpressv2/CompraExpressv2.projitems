@@ -23,6 +23,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)Modelos\Cliente.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Modelos\Compra.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Modelos\Empresa.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ClientApi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\ComprarProducto.xaml.cs">
       <DependentUpon>ComprarProducto.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -73,5 +76,16 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ClientApi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="C:\ProyectoMovil\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2\Views\ClientApi.xaml.cs">
+      <DependentUpon>ClientApi.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

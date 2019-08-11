@@ -13,15 +13,15 @@
 namespace CompraExpressv2.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Repositorio\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2\\Views\\" +
-        "ListaProductos.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\ProyectoMovil\\CompraExpress\\CompraExpress\\CompraExpressv2\\CompraExpressv2\\View" +
+        "s\\ListaProductos.xaml")]
     public partial class ListaProductos : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Grid controlGrid;
+        private global::Xamarin.Forms.Entry Search;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Entry Search;
+        private global::Xamarin.Forms.StackLayout ListProducts;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.Button BackButton;
@@ -32,8 +32,8 @@ namespace CompraExpressv2.Views {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ListaProductos));
-            controlGrid = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Grid>(this, "controlGrid");
             Search = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Entry>(this, "Search");
+            ListProducts = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "ListProducts");
             BackButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "BackButton");
             NextButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "NextButton");
         }
