@@ -40,7 +40,7 @@ namespace CompraExpressv2.Views
                                                                     "Memoria ram: 8GB " +
                                                                     "Disco duro: 1 TB " +
                                                                     "Pantalla 15.6 pulgadas" +
-                                                                    "Tarjeta Grafica: NVIDIA ", 224900,1,"pcgamer.png");
+                                                                    "Tarjeta Grafica: NVIDIA ", 224900,1,"pcgamer.png","1234");
             LinkedList<Producto> productos = new LinkedList<Producto>();
             productos.Append(producto);
 

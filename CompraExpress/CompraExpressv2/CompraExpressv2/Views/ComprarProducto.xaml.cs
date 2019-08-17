@@ -18,14 +18,14 @@ namespace CompraExpressv2.Views
         public Producto producto { get; set; }
 
 
-        public ComprarProducto( )
+        public ComprarProducto( String IdproductoDetalle)
         {
             this.producto = new Producto("13045876", "Portatil Gamer HP", "Procesador i5 " +
                                                                     "SO: Windows Home " +
                                                                     "Memoria ram: 8GB " +
                                                                     "Disco duro: 1 TB " +
                                                                     "Pantalla 15.6 pulgadas" +
-                                                                    "Tarjeta Grafica: NVIDIA ", 224900, 3, "pcgamer.png");
+                                                                    "Tarjeta Grafica: NVIDIA ", 224900, 3, "pcgamer.png","1234");
 
             LinkedList<Producto> productos = new LinkedList<Producto>();
             productos.Append(producto);
@@ -36,7 +36,7 @@ namespace CompraExpressv2.Views
                 precioTotal = precioTotal + p.Precio;
             }
 
-            this.producto = new Producto(producto.Idp,producto.Nombre, producto.Descripcion, producto.Precio ,producto.Cantidad,producto.Figura);
+            this.producto = new Producto(producto.Id,producto.Nombre, producto.Descripcion, producto.Precio ,producto.Cantidad,producto.Figura,producto.IdProvedor);
 
             BindingContext = this;
 

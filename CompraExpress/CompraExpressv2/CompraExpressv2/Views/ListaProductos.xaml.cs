@@ -24,6 +24,8 @@ namespace CompraExpressv2.Views
              
             _Client = new HttpClient();
             InitializeComponent();
+
+
         }
         protected override async void OnAppearing()
         {
@@ -31,9 +33,9 @@ namespace CompraExpressv2.Views
             var content = await _Client.GetStringAsync(url);
             var post = JsonConvert.DeserializeObject<List<Producto>>(content);
             _post = new ObservableCollection<Producto>(post);
-            //Post_List.ItemsSource = _post;
 
-
+            
+            
             foreach (Producto p in _post) {
                 StackLayout newStack=new StackLayout();
                 Label l = new Label();
@@ -42,31 +44,37 @@ namespace CompraExpressv2.Views
                 l.FontAttributes = FontAttributes.Bold;
                 Button b = new Button();
                 b.ImageSource = p.Figura;
+                b.ClassId = p.Id;
+
+                
                 b.Clicked +=  button_click;
                 
                 newStack.Children.Add(l);
                 newStack.Children.Add(b);
                 ListProducts.Children.Add(newStack);
+
                 
             }
             base.OnAppearing();
+
+           
         }
         
         
             
     
-
+        
         private async void button_click(object sender, EventArgs e)
         {
-           
-            //await this.DisplayAlert("Advertencia", (sender as Button).ClassId, "ok");
-            /*
-            foreach (Producto p in _post) {
-                if(p.Figura.Equals(sender.))
+
+            Button button = sender as Button;
+            if (button != null)
+            {
+                await Navigation.PushAsync(new ComprarProducto(button.ClassId));
+
             }
-            */
-            //await App.Current.MainPage.DisplayAlert("Cantidad", "La Cantidad a comprar es: "+stepper.Value.ToString(), "Aceptar", "Cancelar");
-            await Navigation.PushAsync(new ComprarProducto());
+            
+            
         }
 
 
