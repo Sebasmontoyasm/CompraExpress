@@ -4,33 +4,31 @@ using System.Text;
 
 namespace CompraExpressv2.Modelos
 {
-    public class Cliente
+    public class Usuario
     {
         public int Documento { get; set; }
+        public string Tarjeta { get; set; }
         public string Nombre { get; set; }
-
-        public string Direccion { get; set; }
-
-        public string Ciudad { get; set; }
-
-        public string Pais { get; set; }
+        public string Apellido { get; set; }
 
         public string Correo { get; set; }
 
-        public string Clave { get; set; }
+        public string Password { get; set; }
 
-       
-
-        public Cliente(int documento,string nombre,string direccion,string ciudad,string pais,string correo,string clave)
+        public int Rol { get; set; }
+        
+        public int confirmado { get; set; }
+        
+        public Usuario(int Documento,string Tarjeta,string Nombre,string Apellido,string Correo,string Password,int Rol,int confirmado)
         {
-            this.Documento = documento;
-            this.Nombre = nombre;
-            this.Direccion = direccion;
-            this.Ciudad = ciudad;
-            this.Pais = pais;
-            this.Correo = correo;
-            this.Clave = clave;
-
+            this.Documento = Documento;
+            this.Tarjeta = Tarjeta;
+            this.Nombre = Nombre;
+            this.Apellido = Apellido;
+            this.Correo = Correo;
+            this.Password = Password;
+            this.Rol = Rol;
+            this.confirmado = confirmado;
         }
     }
 }

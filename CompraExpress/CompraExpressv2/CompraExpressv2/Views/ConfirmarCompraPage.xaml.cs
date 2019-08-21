@@ -20,7 +20,7 @@ namespace CompraExpressv2.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ConfirmarCompraPage : ContentPage
     {
-        public Cliente cliente { get; set; }
+        public Usuario cliente { get; set; }
         public Empresa empresa { get; set; }
         public Compra compra { get; set; }
         public Producto producto { get; set; }
@@ -33,7 +33,7 @@ namespace CompraExpressv2.Views
          **/
         public ConfirmarCompraPage()
         {
-            this.cliente = new Cliente(1053854498, "Sebastian Montoya", "Cra 36a #10D-66", "Manizales", "Colombia", "sebasmontoyasm@gmail.com","Softwar3LoMejor");
+            this.cliente = new Usuario(10, "s", "Oscar", "Cervantes ", "Manizales", "12345456", 2, 1);
             this.empresa = new Empresa("1701410810", "Ktronix", "6016 6071 9235 4142");
             this.producto = new Producto("13045876", "Portatil Gamer HP", "Procesador i5 " +
                                                                     "SO: Windows Home " +

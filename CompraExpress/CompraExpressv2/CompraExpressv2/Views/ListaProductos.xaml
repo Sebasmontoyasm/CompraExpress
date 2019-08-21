@@ -36,7 +36,8 @@
 
                 <StackLayout  Orientation="Vertical" HorizontalOptions="CenterAndExpand" Grid.ColumnSpan="3">
                 <Label TextColor="Black" FontSize="20" Text="Productos"></Label>
-                <Entry x:Name="Search" Placeholder="Buscar" TextColor="Black" Margin="5,5,5,5" />
+                <Entry x:Name="entryBuscar" Placeholder="Buscar" TextColor="Black" Margin="5,5,5,5" />
+                    <Button x:Name="btnBuscar" BackgroundColor="AliceBlue"  Text="Buscar" Clicked="buscarProductos" HorizontalOptions="Center"></Button>
             </StackLayout>
             
                 <StackLayout x:Name="ListProducts">

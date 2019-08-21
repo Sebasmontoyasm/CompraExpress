@@ -7,17 +7,25 @@ using CompraExpressv2.Views;
 namespace CompraExpressv2
 {
     public partial class App : Application
-    {
+    {   
+        public static bool IsLoggedIn { get; set; }
+
         public App()
-        {
+        {   //IsloggedIn variable de tipo boolean que controla que se haya inciado sesion para poder listar productos
+            IsLoggedIn = false;
+            if (IsLoggedIn) {
+                MainPage = new NavigationPage(new ListaProductos());
+            } else {
+                MainPage = new NavigationPage(new Login());
+            }
             InitializeComponent();
 
             //MainPage = new NavigationPage(new ConfirmarCompraPage());
             //MainPage = new NavegationPage(new ComprarProducto());
-            MainPage = new NavigationPage(new ListaProductos());
+            //MainPage = new NavigationPage(new ListaProductos());
            // MainPage = new NavigationPage(new ComprarProducto());
             //MainPage = new NavigationPage(new Login());
-           // MainPage = new NavigationPage (new RegistrarUsuario());
+            MainPage = new NavigationPage (new ListaProductos());
             
         }
 

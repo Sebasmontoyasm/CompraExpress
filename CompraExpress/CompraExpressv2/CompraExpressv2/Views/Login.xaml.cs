@@ -7,11 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using CompraExpressv2.Modelos;
+using System.Collections.ObjectModel;
+using System.Net.Http;
+using Newtonsoft.Json;
 /**
- * Clase encargada de hacer las validaciones 
- * para que el usuario pueda iniciar sesion en el sistema
- * Autor Lina Marcela Arias 
- * @Version 4.1 
+* Clase encargada de hacer las validaciones 
+* para que el usuario pueda iniciar sesion en el sistema
+* Autor Lina Marcela Arias 
+* @Version 4.1 
 **/
 
 namespace CompraExpressv2.Views
@@ -19,14 +22,13 @@ namespace CompraExpressv2.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Login : ContentPage
     {
-        public Cliente cliente { get; set; }
-        public LinkedList<Cliente> clientesL = new LinkedList<Cliente>();
+        
+        
 
         public Login()
         {
-            this.cliente = new Cliente(10, "Oscar", "Cervantes ", "Manizales", "Colombia", "compraexpress@gmail.com", "caballo");
-            this.cliente = new Cliente(11, "Oscar1", "Cervantes ", "Manizales", "Colombia", "c@gmail.com", "1234567");
-            clientesL.Append(cliente);
+            
+            
             InitializeComponent();
         }
 
@@ -47,7 +49,7 @@ namespace CompraExpressv2.Views
             }
             if (String.IsNullOrWhiteSpace(claveF.Text))
             {
-                await this.DisplayAlert("Advertencia", "El campo del nombre es obligatorio.", "OK");
+                await this.DisplayAlert("Advertencia", "El campo de contraseña es obligatorio.", "OK");
                 return false;
             }
 
@@ -64,30 +66,47 @@ namespace CompraExpressv2.Views
         //valida que el correo y la clave existan y estén almacenados 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            if (await validarFormulario())
+            if (await validarFormulario() && await buscarCliente())
             {
-                await DisplayAlert("Exito", "Todos tus campos cumplieron las validaciones.", "OK");
-
-
-
-                if (this.cliente.Correo.Equals(correoF.Text))
-                {
-                    if (this.cliente.Clave.Equals(claveF.Text))
-                    {
-                        await DisplayAlert("Exito", "Clave correcta ", "OK");
-                        await DisplayAlert("Exito", "Aqui poner el pasar a la siguiente pagina con un navigationPague, contraseña y email correocto", "OK");
-                    }
-                    else
-                    {
-                        await DisplayAlert("Exito", "Clave Incorrecta ", "OK");
-                    }
-                }
-                else
-                {
-                    await DisplayAlert("Exito", "Correo Incorrecto o inexistente ", "OK");
-                }
+                //await DisplayAlert("Exito", "Puede iniciar", "OK");
 
             }
+            else {
+                await DisplayAlert("Exito", "Debe registrarse primero", "OK");
+            }
+        }
+
+        /**verificar que el usuario no este registrado antes de registrarse mediante Get del servicio Web
+         *return= True si encuentra un usuario en la base de datos con el mismo correo electronico, 
+          False si no lo encuentra.
+         * **/
+        private async Task<bool> buscarCliente()
+        {
+            ObservableCollection<Usuario> _post;
+            HttpClient _Client = new HttpClient();
+            string url = "http://192.168.0.115:63751/api/UsuariosAPI";
+            var contenido = await _Client.GetStringAsync(url);
+            var post = JsonConvert.DeserializeObject<List<Usuario>>(contenido);
+            _post = new ObservableCollection<Usuario>(post);
+            foreach (Usuario c in _post)
+            {
+                if (c.Correo.Equals(correoF.Text) )
+                {
+                    if (c.Password.Equals(claveF.Text))
+                    {
+
+                        return true;
+                    }
+                    else {
+                        await DisplayAlert("Alerta","Clave incorrecta","ok");
+                        return false;
+                    }
+                }
+            }
+
+            return false;
+
+
         }
     }
 }

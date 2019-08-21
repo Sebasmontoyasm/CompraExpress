@@ -22,7 +22,7 @@ namespace CompraExpressv2.Views
     {
         private const string url = "http://192.168.1.22:63751/api/UsuariosAPI";
         private HttpClient _Client = new HttpClient();
-        private ObservableCollection<Cliente> _post;
+        private ObservableCollection<Usuario> _post;
         public ClientApi()
         {
             InitializeComponent();
@@ -37,8 +37,8 @@ namespace CompraExpressv2.Views
         protected override async void OnAppearing()
         {   
             var content = await _Client.GetStringAsync(url);
-            var post = JsonConvert.DeserializeObject<List<Cliente>>(content);
-            _post = new ObservableCollection<Cliente>(post);
+            var post = JsonConvert.DeserializeObject<List<Usuario>>(content);
+            _post = new ObservableCollection<Usuario>(post);
             Post_List.ItemsSource = _post;
             
             base.OnAppearing();

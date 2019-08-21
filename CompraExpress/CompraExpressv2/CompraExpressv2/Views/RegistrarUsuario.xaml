@@ -3,24 +3,33 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CompraExpressv2.Views.RegistrarUsuario">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" Spacing="10">
-            <Label Text="Documento: "></Label>
-            <Entry x:Name="entryDocumento"></Entry>
+        <ScrollView>
+            <StackLayout Spacing="0" Padding="0" BackgroundColor="White">
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="50"
+                 VerticalOptions="Start" Color="White" />
+                <Image Source ="logo.png"></Image>
+                <StackLayout HeightRequest="100" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Spacing="20" BackgroundColor="White">
+                    <Label Text="Registro" FontSize="28" HorizontalOptions="Center"
+                         VerticalOptions="Center" FontAttributes="Bold" />
+                </StackLayout>
+                <StackLayout Orientation="Vertical" Spacing="10">
 
-            <Label Text="Nombre: "></Label>
-            <Entry x:Name="entryNombre"></Entry>
+                    <Entry x:Name="entryDocumento" Margin="50,10,50,10" HorizontalOptions="FillAndExpand"  Placeholder="Documento"  TextColor="Black" BackgroundColor="White"></Entry>
 
-            <Label Text="Apellido: "></Label>
-            <Entry x:Name="entryApellido"></Entry>
+                    <Entry x:Name="entryNombre" Margin="50,10,50,10" HorizontalOptions="FillAndExpand"  Placeholder="Nombre"  TextColor="Black" BackgroundColor="White"></Entry>
 
-            <Label Text="Correo Electronico: "></Label>
-            <Entry x:Name="entryCorreo"></Entry>
+                    <Entry x:Name="entryApellido" Margin="50,10,50,10" HorizontalOptions="FillAndExpand"  Placeholder="Apellido"  TextColor="Black" BackgroundColor="White"></Entry>
+
+                    <Entry x:Name="entryCorreo" Margin="50,10,50,10" HorizontalOptions="FillAndExpand"  Placeholder="Correo Electrónico"  TextColor="Black" BackgroundColor="White"></Entry>
+
+                    <Entry x:Name="entryContrasena" Margin="50,10,50,10"  IsPassword="True" HorizontalOptions="FillAndExpand"  Placeholder="Contraseña"  TextColor="Black" BackgroundColor="White"></Entry>
+
+                    <Entry x:Name="entryTarjeta" Margin="50,10,50,10" HorizontalOptions="FillAndExpand"  Placeholder="Tarjeta"  TextColor="Black" BackgroundColor="White"></Entry>
 
 
-            <Label Text="Contrasena: "></Label>
-            <Entry x:Name="entryContrasena"></Entry>
-
-            <Button x:Name="CrearUsuario" Text="Registrar" Clicked="OnButtonClicked" HorizontalOptions="Center"></Button>
-        </StackLayout>
+                    <Button x:Name="CrearUsuario"  BackgroundColor="AliceBlue"  Text="Registrar" Clicked="OnButtonClicked" HorizontalOptions="Center"></Button>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

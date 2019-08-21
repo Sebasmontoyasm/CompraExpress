@@ -1,0 +1,1 @@
+C:\ProyectoMovil\CompraExpress\CompraExpress\CompraExpressv2\CompraExpressv2.UWP\CompraExpressv2.UWP.csproj;x86
